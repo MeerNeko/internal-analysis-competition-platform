@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "internal-analysis-competition-platform"
+version = "0.1.0"
+description = ""
+authors = ["tatsuya_ito <t.ito@sint.co.jp>"]
+readme = "README.md"
+packages = [{include = "internal_analysis_competition_platform"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.2.2"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+matplotlib = "^3.7.1"
+streamlit = "^1.20.0"
+pandera = "^0.14.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
