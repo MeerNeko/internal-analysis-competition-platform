@@ -1,7 +1,11 @@
 import os
 import streamlit as st 
+from PIL import Image
 
 from utils import read_mdfile
+
+header_image = Image.open('./asset/SI_Data_Analysis_Challenge_1_header.png')
+st.image(header_image)
 
 data_description = read_mdfile('./asset/data_description.md')
 

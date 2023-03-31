@@ -2,7 +2,7 @@
 name = "internal-analysis-competition-platform"
 version = "0.1.0"
 description = ""
-authors = ["tatsuya_ito <t.ito@sint.co.jp>"]
+authors = ["xxxx <xxx@xxx.xx.xx>"]
 readme = "README.md"
 packages = [{include = "internal_analysis_competition_platform"}]
 
